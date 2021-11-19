@@ -9,7 +9,7 @@
 
 Take a look around!
 
-Beside the pinned repositories below, also check out my:
+In addition to the repositories pinned below, check out the following:
 
-1. [website](https://gil.desmarais.de)
-2. [.dotfiles](https://github.com/gildesmarais/dotfiles)
+1. [my personal website](https://gil.desmarais.de)
+2. [my .dotfiles](https://github.com/gildesmarais/dotfiles)

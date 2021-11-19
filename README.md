@@ -1,16 +1,16 @@
-### Hi there 👋
+```
+██╗  ██╗██╗       ██╗███╗   ███╗     ██████╗ ██╗██╗     ██╗
+██║  ██║██║       ██║████╗ ████║    ██╔════╝ ██║██║     ██║
+███████║██║       ██║██╔████╔██║    ██║  ███╗██║██║     ██║
+██╔══██║██║       ██║██║╚██╔╝██║    ██║   ██║██║██║     ╚═╝
+██║  ██║██║▄█╗    ██║██║ ╚═╝ ██║    ╚██████╔╝██║███████╗██╗
+╚═╝  ╚═╝╚═╝╚═╝    ╚═╝╚═╝     ╚═╝     ╚═════╝ ╚═╝╚══════╝╚═╝
 
-<!--
-**gildesmarais/gildesmarais** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```
 
-Here are some ideas to get you started:
+Take a look around!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Beside the pinned repositories below, also check out my:
+
+1. [website](https://gil.desmarais.de)
+2. [.dotfiles](https://github.com/gildesmarais/dotfiles)

@@ -2,16 +2,16 @@
 
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=vision-friendly-dark&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=vision-friendly-dark&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true&gb_color=#0d1117&border_radius=0"
     media="(prefers-color-scheme: dark)"
   />
   
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=graywhite&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=graywhite&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true&border_radius=0"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
   
-  <img src="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=vision-friendly-dark&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true" loading="lazy" alt="A card showing Github statistics"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=graywhite&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true&border_radius=0" loading="lazy" alt="A card showing Github statistics"/>
 </picture>
 
 

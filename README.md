@@ -17,6 +17,7 @@
 
 Along with the pinned repositories below, I also recommend to:
 
-1. visit [my personal website](https://gil.desmarais.de),
-2. snoop in [my .dotfiles](https://github.com/gildesmarais/dotfiles) and
-3. follow me on mastodon: [@gil@social.tchncs.de](https://social.tchncs.de/@gil).
+1. visit [my personal website](https://gil.desmarais.de), and
+2. snoop in [my .dotfiles](https://github.com/gildesmarais/dotfiles).
+
+Cheers!

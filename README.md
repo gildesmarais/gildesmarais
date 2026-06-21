@@ -56,3 +56,5 @@ The [html2rss organization](https://github.com/html2rss) spans the Ruby gem, web
 [![Blog](https://img.shields.io/badge/blog-gil.desmarais.de-lightgrey)](https://gil.desmarais.de/blog)
 
 Cheers!
+
+<img src="https://github-gil.goatcounter.com/count?p=/" alt="" width="1" height="1">

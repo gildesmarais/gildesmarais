@@ -35,11 +35,15 @@ I fix things where I find them:
 - **yotarok/flacenc-rs** — [fixed-block encoding with a non-multiple tail frame](https://github.com/yotarok/flacenc-rs/pull/255) (merged), plus decode and deinterleave perf work ([#257](https://github.com/yotarok/flacenc-rs/pull/257), [#258](https://github.com/yotarok/flacenc-rs/pull/258), open)
 - **kungfusheep/hue** (Philips Hue MCP server) — [sRGB gamma fix](https://github.com/kungfusheep/hue/pull/1) and [error surfacing](https://github.com/kungfusheep/hue/pull/2) (open). My [fork](https://github.com/gildesmarais/hue) has more.
 - **navidrome/navidrome** — [respect `prefers-reduced-motion`](https://github.com/navidrome/navidrome/pull/2090) (merged)
+- **fedy2/yahoo-weather-java-api** — [`java.net.Proxy` support](https://github.com/fedy2/yahoo-weather-java-api/pull/6) (merged, 2013 😄)
 
 ## Also built
 
 **Ruby**
 - [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy) — adds `loading="lazy"` with no JavaScript ![stars](https://img.shields.io/github/stars/gildesmarais/jekyll-loading-lazy?style=flat-square&label=%E2%98%85) *(legacy)*
+
+**Early web culture**
+- [The Shrine](https://github.com/svenpanel/the-shrine-ng) — a cult retro soundboard from the Adobe Flash era, brought back as a PWA so it survives Flash's end. [theshrine.pw →](https://theshrine.pw) ![stars](https://img.shields.io/github/stars/svenpanel/the-shrine-ng?style=flat-square&label=%E2%98%85)
 
 **Infra**
 - [ansible-5-minutes-server](https://github.com/gildesmarais/ansible-5-minutes-server) — a hardened Ubuntu server in five minutes *(legacy)*

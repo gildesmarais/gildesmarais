@@ -1,60 +1,66 @@
-# Moin, I'm Gil!
+# Moin, I'm Gil 👋
 
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=vision-friendly-dark&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true&gb_color=#0d1117&border_radius=0"
-    media="(prefers-color-scheme: dark)"
-  />
-  
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=graywhite&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true&border_radius=0"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=gildesmarais&theme=graywhite&show=prs_merged&hide_title=true&text_bold=false&ring_color=ff8800&rank_icon=github&line_height=22&show_icons=false&hide_border=true&border_radius=0" loading="lazy" alt="A card showing Github statistics"/>
-</picture>
+**Builder in Berlin. I take products from a fuzzy problem to shipped, then run them and own the result. Agents are part of how I ship.**
 
-**Curious engineer in Berlin — into music, movement, and thoughtful systems.**
+> 🟢 **Open to new roles:** Senior/Staff IC with direct ownership of outcomes. [Résumé](https://gil.desmarais.de/resume) · [Get in touch](https://gil.desmarais.de/contact)
 
-Turning complexity into clear, reliable systems through systems thinking and hands-on engineering.
-I build open-source tools for the open web — syndication, signal processing, trusted publishing.
+At work I lead platform engineering for a health-tech product. That includes Rails, React Native, Go, infrastructure and compliance (ISO 27001, C5, GDPR), and the work cut platform-related customer complaints by about 80%. Below is what I build in the open.
 
-For timeline and roles, see my [résumé](https://gil.desmarais.de/resume).
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
+![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-191919?style=flat-square&logo=anthropic&logoColor=white)
 
-## [html2rss](https://github.com/html2rss) — open-source org
+## Start here
 
-Restores open-web syndication — declarative extractors, optional headless rendering, self-hosted delivery.
-The [html2rss organization](https://github.com/html2rss) spans the Ruby gem, web app, config library, CLI generator, docs site, and scrape API bridge.
+- 📰 **[html2rss](https://github.com/html2rss)** — Turns any website into RSS or JSON Feed. It started as a Ruby gem and grew into an org: a [web app](https://github.com/html2rss/html2rss-web), a [config library](https://github.com/html2rss/html2rss-configs), a [CLI generator](https://github.com/html2rss/generator), a [headless scrape bridge](https://github.com/html2rss/botasaurus-scrape-api) and a [docs site](https://html2rss.github.io/). I run it in production for myself.
+  ![gem stars](https://img.shields.io/github/stars/html2rss/html2rss?style=flat-square&label=gem) ![web stars](https://img.shields.io/github/stars/html2rss/html2rss-web?style=flat-square&label=web)
+- 🎨 **[moodbar.rs](https://github.com/gildesmarais/moodbar.rs)** — Music visualisation in Rust from one core: CLI, WASM on npm, and native iOS/Android bindings. [Live demo →](https://gildesmarais.github.io/moodbar.rs/)
+- 🤖 **[omnifocus-mcp](https://github.com/gildesmarais/omnifocus-mcp)** — An MCP server in Go that lets AI assistants read and edit OmniFocus. It's a single binary that runs locally and needs no account or API key.
+- 🧰 **[dotfiles](https://github.com/gildesmarais/dotfiles)** — My macOS setup and the agent skills I use every day with Claude Code and Codex. They cover reviews, PRs, architecture and tickets.
 
-[Organization](https://github.com/html2rss) · [html2rss](https://github.com/html2rss/html2rss) · [html2rss-web](https://github.com/html2rss/html2rss-web) · [Project site](https://html2rss.github.io/)
+## Upstream
 
-## Current projects
+I fix things where I find them:
 
-**[moodbar.rs](https://gildesmarais.github.io/moodbar.rs/)** — Rust audio toolkit (CLI, native iOS/Android, WASM). Signal processing for visual fingerprints; active development. [Project site + demo](https://gildesmarais.github.io/moodbar.rs/) · [GitHub](https://github.com/gildesmarais/moodbar.rs)
+- **ruby/ruby** — [`Set#^` no longer mutates its argument](https://github.com/ruby/ruby/pull/15296) (merged)
+- **whitequark/parser** — [accept UTF-8 string literals with non-UTF-8 byte escapes](https://github.com/whitequark/parser/pull/1097) (open)
+- **yotarok/flacenc-rs** — [fixed-block encoding with a non-multiple tail frame](https://github.com/yotarok/flacenc-rs/pull/255) (merged), plus decode and deinterleave perf work ([#257](https://github.com/yotarok/flacenc-rs/pull/257), [#258](https://github.com/yotarok/flacenc-rs/pull/258), open)
+- **kungfusheep/hue** (Philips Hue MCP server) — [sRGB gamma fix](https://github.com/kungfusheep/hue/pull/1) and [error surfacing](https://github.com/kungfusheep/hue/pull/2) (open). My [fork](https://github.com/gildesmarais/hue) has more.
+- **navidrome/navidrome** — [respect `prefers-reduced-motion`](https://github.com/navidrome/navidrome/pull/2090) (merged)
 
-**[dotfiles](https://github.com/gildesmarais/dotfiles)** — Production-grade macOS/CLI setup: Homebrew, editor configs, guided defaults, scripts for daily workflows. Recently extended with AI skills and media tooling.
+## Also built
 
-## Projects
+**Ruby & Rails**
+- [sql_lint](https://github.com/gildesmarais/sql_lint) — SQL linter for Rails test suites, with rules per DBMS
+- [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy) — adds `loading="lazy"` with no JavaScript ![stars](https://img.shields.io/github/stars/gildesmarais/jekyll-loading-lazy?style=flat-square&label=%E2%98%85) *(legacy)*
 
-| Project | Description | Stars |
-|---------|-------------|-------|
-| [html2rss](https://github.com/html2rss) | Open-web syndication ecosystem — gem, web app, configs, tooling | ![Stars](https://img.shields.io/github/stars/html2rss/html2rss?style=social) |
-| [moodbar.rs](https://gildesmarais.github.io/moodbar.rs/) | Rust multi-target audio toolkit — CLI, native, WASM; live demo on project site | ![Stars](https://img.shields.io/github/stars/gildesmarais/moodbar.rs?style=social) |
-| [dotfiles](https://github.com/gildesmarais/dotfiles) | macOS/CLI infrastructure — syncable, documented, actively maintained | ![Stars](https://img.shields.io/github/stars/gildesmarais/dotfiles?style=social) |
+**Infra**
+- [ansible-5-minutes-server](https://github.com/gildesmarais/ansible-5-minutes-server) — a hardened Ubuntu server in five minutes *(legacy)*
+
+**Small tools**
+- [awesome-stars](https://github.com/gildesmarais/awesome-stars) — an auto-updated list of what I star
+- [discogs-bulk-comment-field-userscript](https://github.com/gildesmarais/discogs-bulk-comment-field-userscript) — bulk-edits listing comments on Discogs *(legacy)*
+
+## How I build
+
+- **Outcomes are the scoreboard.** I measure work by the numbers it moves, not by tickets closed.
+- **End to end.** Backend, mobile, infra, CI and on-call, all as one system.
+- **Agents as leverage.** I write skills, rules and MCP servers so that agent-written code passes the same gates as mine.
+- **Judgement over language.** I pick the stack that fits the problem: Ruby, Rust, Go, TypeScript or Swift.
 
 ## Elsewhere
 
-- [Personal website](https://gil.desmarais.de)
-- [Blog](https://gil.desmarais.de/blog)
-- [Projects](https://gil.desmarais.de/projects) — fuller write-ups
+[![Website](https://img.shields.io/badge/gil.desmarais.de-000?style=flat-square&logo=astro&logoColor=white)](https://gil.desmarais.de)
+[![Blog](https://img.shields.io/badge/blog-555?style=flat-square)](https://gil.desmarais.de/blog)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gildesmarais/)
+[![SoundCloud](https://img.shields.io/badge/SoundCloud-FF5500?style=flat-square&logo=soundcloud&logoColor=white)](https://soundcloud.com/gildesmarais)
 
-## Connect
-
-[![Website](https://img.shields.io/badge/website-gil.desmarais.de-blue)](https://gil.desmarais.de)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gildesmarais-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gildesmarais/)
-[![Soundcloud](https://img.shields.io/badge/Soundcloud-gildesmarais-FF5500?logo=soundcloud&logoColor=white)](https://soundcloud.com/gildesmarais)
-[![Blog](https://img.shields.io/badge/blog-gil.desmarais.de-lightgrey)](https://gil.desmarais.de/blog)
-
-Cheers!
+Off-screen: music, film, movement. Cheers!
 
 <img src="https://github-gil.goatcounter.com/count?p=/" alt="" width="1" height="1">

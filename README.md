@@ -14,7 +14,7 @@ At work I lead platform engineering for a health-tech product. That includes Rai
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![WebAssembly](https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-191919?style=flat-square&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-191919?style=flat-square)
 
 ## Start here
 

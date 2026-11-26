@@ -10,20 +10,20 @@ At work I'm the platform team lead for a health-tech product. I own identity, re
 
 Next, I want to work on audio and DSP, on agent tooling and devtools, and on the odd dive into lower layers, like Ruby's `Set` in C. Agents are changing how software gets built, and I want to build in that shift. Below is what I build in the open.
 
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
-![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![WebAssembly](https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-191919?style=flat-square)
+[![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
+[![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)](https://rubyonrails.org/)
+[![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
+[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://www.swift.org/)
+[![WebAssembly](https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=white)](https://webassembly.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![MCP](https://img.shields.io/badge/MCP-191919?style=flat-square)](https://modelcontextprotocol.io/)
 
 ## Start here
 
 - 📰 **[html2rss](https://github.com/html2rss)** — Turns any website into RSS or JSON Feed. It started as a Ruby gem and grew into an org: a [web app](https://github.com/html2rss/html2rss-web), a [config library](https://github.com/html2rss/html2rss-configs), a [CLI generator](https://github.com/html2rss/generator), a [headless scrape bridge](https://github.com/html2rss/botasaurus-scrape-api) and a [docs site](https://html2rss.github.io/). It ships with 200+ ready-made site configs, and I run it in production for myself.
-  ![gem downloads](https://img.shields.io/gem/dt/html2rss?style=flat-square&label=gem%20downloads) ![docker pulls](https://img.shields.io/docker/pulls/html2rss/web?style=flat-square&label=docker%20pulls) ![gem stars](https://img.shields.io/github/stars/html2rss/html2rss?style=flat-square&label=gem) ![web stars](https://img.shields.io/github/stars/html2rss/html2rss-web?style=flat-square&label=web)
+  [![gem downloads](https://img.shields.io/gem/dt/html2rss?style=flat-square&label=gem%20downloads)](https://rubygems.org/gems/html2rss) [![docker pulls](https://img.shields.io/docker/pulls/html2rss/web?style=flat-square&label=docker%20pulls)](https://hub.docker.com/r/html2rss/web) [![gem stars](https://img.shields.io/github/stars/html2rss/html2rss?style=flat-square&label=gem)](https://github.com/html2rss/html2rss) [![web stars](https://img.shields.io/github/stars/html2rss/html2rss-web?style=flat-square&label=web)](https://github.com/html2rss/html2rss-web)
 - 🎨 **[moodbar.rs](https://github.com/gildesmarais/moodbar.rs)** — Music visualisation in Rust from one core: CLI, WASM on npm, and native iOS/Android bindings. [Live demo →](https://gildesmarais.github.io/moodbar.rs/)
 - 🤖 **[omnifocus-mcp](https://github.com/gildesmarais/omnifocus-mcp)** — An MCP server in Go that lets AI assistants read and edit OmniFocus. It's a single binary that runs locally and needs no account or API key.
 - 🧰 **[dotfiles](https://github.com/gildesmarais/dotfiles)** — My macOS setup and the agent skills I use every day with coding agents. They cover reviews, PRs, architecture and tickets.
@@ -54,10 +54,10 @@ I fix things where I find them:
 ## Also built
 
 **Ruby**
-- [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy) — adds `loading="lazy"` with no JavaScript ![stars](https://img.shields.io/github/stars/gildesmarais/jekyll-loading-lazy?style=flat-square&label=%E2%98%85) *(legacy)*
+- [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy) — adds `loading="lazy"` with no JavaScript [![stars](https://img.shields.io/github/stars/gildesmarais/jekyll-loading-lazy?style=flat-square&label=%E2%98%85)](https://github.com/gildesmarais/jekyll-loading-lazy) *(legacy)*
 
 **Early web culture**
-- [The Shrine](https://github.com/svenpanel/the-shrine-ng) — a cult retro soundboard from the Adobe Flash era, brought back as a PWA so it survives Flash's end. [theshrine.pw →](https://theshrine.pw) ![stars](https://img.shields.io/github/stars/svenpanel/the-shrine-ng?style=flat-square&label=%E2%98%85)
+- [The Shrine](https://github.com/svenpanel/the-shrine-ng) — a cult retro soundboard from the Adobe Flash era, brought back as a PWA so it survives Flash's end. [theshrine.pw →](https://theshrine.pw) [![stars](https://img.shields.io/github/stars/svenpanel/the-shrine-ng?style=flat-square&label=%E2%98%85)](https://github.com/svenpanel/the-shrine-ng)
 
 **Infra**
 - [ansible-5-minutes-server](https://github.com/gildesmarais/ansible-5-minutes-server) — a hardened Ubuntu server in five minutes *(legacy)*

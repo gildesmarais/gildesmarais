@@ -30,15 +30,15 @@ Next, I want to work on audio and DSP, on agent tooling and devtools, and on the
 
 🔒 Currently building a DJ-prep app: SwiftUI on a Rust core, with BPM and key detection, spectral features, and playlists that follow energy arcs. It's closed source.
 
-## Skip the take-home
+## One change, end to end
 
-Want to see how I work before we talk? This is one change, from proposal to merge:
+This is how I work, shown through one change from proposal to merge:
 
 1. **Design:** [RFC: decoupling DOM parsing from heuristic scoring](https://github.com/orgs/html2rss/discussions/1195). It covers the symptoms, a three-tier pipeline, guardrails and a zero-breaking-change plan.
 2. **Delivery:** [html2rss#435](https://github.com/html2rss/html2rss/pull/435), merged. The pipeline ran about 6× faster with roughly half the allocations on the benchmark harness. It traded some recall for precision on purpose, and the PR documents why.
 3. **Code:** [the auto-source pipeline](https://github.com/html2rss/html2rss/tree/master/lib/html2rss/auto_source), which is still the base today.
 
-I'm happy to walk through any of it live.
+I'm glad to talk through the trade-offs.
 
 ## Upstream
 
@@ -68,9 +68,11 @@ I fix things where I find them:
 
 ## How I build
 
+- **Systems and business.** I see feedback loops and where a system wastes effort. My business informatics degree keeps the business case in view.
 - **Outcomes are the scoreboard.** I measure work by the numbers it moves, not by tickets closed.
 - **End to end.** Backend, mobile, infra, CI and on-call, all as one system.
 - **Agents as leverage.** I write skills, rules and MCP servers so that agent-written code passes the same gates as mine.
+- **Build what's missing.** If a tool doesn't exist and it's worth having, I build it.
 - **Judgement over language.** I pick the stack that fits the problem: Ruby, Rust, Go, TypeScript or Swift.
 
 ## Elsewhere

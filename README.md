@@ -22,7 +22,7 @@ At work I lead platform engineering for a health-tech product. That includes Rai
   ![gem stars](https://img.shields.io/github/stars/html2rss/html2rss?style=flat-square&label=gem) ![web stars](https://img.shields.io/github/stars/html2rss/html2rss-web?style=flat-square&label=web)
 - 🎨 **[moodbar.rs](https://github.com/gildesmarais/moodbar.rs)** — Music visualisation in Rust from one core: CLI, WASM on npm, and native iOS/Android bindings. [Live demo →](https://gildesmarais.github.io/moodbar.rs/)
 - 🤖 **[omnifocus-mcp](https://github.com/gildesmarais/omnifocus-mcp)** — An MCP server in Go that lets AI assistants read and edit OmniFocus. It's a single binary that runs locally and needs no account or API key.
-- 🧰 **[dotfiles](https://github.com/gildesmarais/dotfiles)** — My macOS setup and the agent skills I use every day with Claude Code and Codex. They cover reviews, PRs, architecture and tickets.
+- 🧰 **[dotfiles](https://github.com/gildesmarais/dotfiles)** — My macOS setup and the agent skills I use every day with coding agents. They cover reviews, PRs, architecture and tickets.
 
 🔒 Currently building a DJ-prep app: SwiftUI on a Rust core, with BPM and key detection, spectral features, and playlists that follow energy arcs. It's closed source.
 

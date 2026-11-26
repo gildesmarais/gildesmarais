@@ -2,9 +2,11 @@
 
 **Builder in Berlin. I take products from a fuzzy problem to shipped, then run them and own the result. Agents are part of how I ship.**
 
-> 🟢 **Open to new roles:** Senior/Staff IC with direct ownership of outcomes. [Résumé](https://gil.desmarais.de/resume) · [Get in touch](https://gil.desmarais.de/contact)
+> 🟢 **Open to new roles:** Staff, Founding or Product Engineer, as an IC with direct ownership of outcomes.<br>
+> 15 years shipping software · Berlin (hybrid) or remote, CET · German (native), English (fluent)<br>
+> [Résumé](https://gil.desmarais.de/resume) · [Get in touch](https://gil.desmarais.de/contact)
 
-At work I lead platform engineering for a health-tech product. That includes Rails, React Native, Go, infrastructure and compliance (ISO 27001, C5, GDPR), and the work cut platform-related customer complaints by about 80%. Below is what I build in the open.
+At work I'm the platform team lead for a health-tech product. I own identity, reliability and compliance (ISO 27001, C5, GDPR) across Rails, React Native, Go and infrastructure. That work cut platform-related customer complaints by about 80% and CI wall-clock time by a third. I also mentor three engineers. Below is what I build in the open.
 
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
@@ -25,6 +27,16 @@ At work I lead platform engineering for a health-tech product. That includes Rai
 - 🧰 **[dotfiles](https://github.com/gildesmarais/dotfiles)** — My macOS setup and the agent skills I use every day with coding agents. They cover reviews, PRs, architecture and tickets.
 
 🔒 Currently building a DJ-prep app: SwiftUI on a Rust core, with BPM and key detection, spectral features, and playlists that follow energy arcs. It's closed source.
+
+## Skip the take-home
+
+Want to see how I work before we talk? This is one change, from proposal to merge:
+
+1. **Design:** [RFC: decoupling DOM parsing from heuristic scoring](https://github.com/orgs/html2rss/discussions/1195). It covers the symptoms, a three-tier pipeline, guardrails and a zero-breaking-change plan.
+2. **Delivery:** [html2rss#435](https://github.com/html2rss/html2rss/pull/435), merged. The pipeline ran about 6× faster with roughly half the allocations on the benchmark harness. It traded some recall for precision on purpose, and the PR documents why.
+3. **Code:** [the auto-source pipeline](https://github.com/html2rss/html2rss/tree/master/lib/html2rss/auto_source), which is still the base today.
+
+I'm happy to walk through any of it live.
 
 ## Upstream
 

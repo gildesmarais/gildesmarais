@@ -28,7 +28,7 @@ At work I lead platform engineering for a health-tech product. That includes Rai
 
 I fix things where I find them:
 
-- **ruby/ruby** — [`Set#^` no longer mutates its argument](https://github.com/ruby/ruby/pull/15296) (merged)
+- **ruby/ruby** — two fixes to the core `Set` class in C: [`Set#^` no longer mutates its argument](https://github.com/ruby/ruby/commit/b5604833a3) and [`compare_by_identity` is preserved across Set operations](https://github.com/ruby/ruby/commit/f069efc3f6) ([all commits](https://github.com/ruby/ruby/commits/master/set.c?author=gildesmarais))
 - **whitequark/parser** — [accept UTF-8 string literals with non-UTF-8 byte escapes](https://github.com/whitequark/parser/pull/1097) (open)
 - **yotarok/flacenc-rs** — [fixed-block encoding with a non-multiple tail frame](https://github.com/yotarok/flacenc-rs/pull/255) (merged), plus decode and deinterleave perf work ([#257](https://github.com/yotarok/flacenc-rs/pull/257), [#258](https://github.com/yotarok/flacenc-rs/pull/258), open)
 - **kungfusheep/hue** (Philips Hue MCP server) — [sRGB gamma fix](https://github.com/kungfusheep/hue/pull/1) and [error surfacing](https://github.com/kungfusheep/hue/pull/2) (open). My [fork](https://github.com/gildesmarais/hue) has more.
@@ -36,8 +36,7 @@ I fix things where I find them:
 
 ## Also built
 
-**Ruby & Rails**
-- [sql_lint](https://github.com/gildesmarais/sql_lint) — SQL linter for Rails test suites, with rules per DBMS
+**Ruby**
 - [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy) — adds `loading="lazy"` with no JavaScript ![stars](https://img.shields.io/github/stars/gildesmarais/jekyll-loading-lazy?style=flat-square&label=%E2%98%85) *(legacy)*
 
 **Infra**

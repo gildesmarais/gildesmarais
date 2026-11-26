@@ -24,6 +24,8 @@ At work I lead platform engineering for a health-tech product. That includes Rai
 - 🤖 **[omnifocus-mcp](https://github.com/gildesmarais/omnifocus-mcp)** — An MCP server in Go that lets AI assistants read and edit OmniFocus. It's a single binary that runs locally and needs no account or API key.
 - 🧰 **[dotfiles](https://github.com/gildesmarais/dotfiles)** — My macOS setup and the agent skills I use every day with Claude Code and Codex. They cover reviews, PRs, architecture and tickets.
 
+🔒 Currently building a DJ-prep audio analysis pipeline in Rust: BPM and key detection, spectral features, playlists that follow energy arcs. It's closed source.
+
 ## Upstream
 
 I fix things where I find them:

@@ -6,7 +6,9 @@
 > 15 years shipping software · Berlin (hybrid) or remote, CET · German (native), English (fluent)<br>
 > [Résumé](https://gil.desmarais.de/resume) · [Get in touch](https://gil.desmarais.de/contact)
 
-At work I'm the platform team lead for a health-tech product. I own identity, reliability and compliance (ISO 27001, C5, GDPR) across Rails, React Native, Go and infrastructure. That work cut platform-related customer complaints by about 80% and CI wall-clock time by a third. I also mentor three engineers. Below is what I build in the open.
+At work I'm the platform team lead for a health-tech product. I own identity, reliability and compliance (ISO 27001, C5, GDPR) across Rails, React Native, Go and infrastructure. That work cut platform-related customer complaints by about 80% and CI wall-clock time by a third. I also mentor three engineers.
+
+Next, I want to work on audio and DSP, on agent tooling and devtools, and on the odd dive into lower layers, like Ruby's `Set` in C. Agents are changing how software gets built, and I want to build in that shift. Below is what I build in the open.
 
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
